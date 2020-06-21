@@ -14,7 +14,7 @@ public class ICprojTaskServiceImpl implements ICprojTaskService {
     CProjTaskMapper cProjTaskMapper;
 
     public CProjTask getLimsExampleTask(){
-        return cProjTaskMapper.selectByPrimaryKey(Long.valueOf(14940));
+        return cProjTaskMapper.selectByPrimaryKey(Long.valueOf(15019));
     }
 
 

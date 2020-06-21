@@ -14,7 +14,7 @@ public class ICprojLoginSampleServiceImpl implements ICprojLoginSampleService {
 
 
     public CProjLoginSample getLimsExampleCProjLoginSample(){
-        return cProjLoginSampleMapper.selectByPrimaryKey(Short.valueOf("6673"));
+        return cProjLoginSampleMapper.selectByPrimaryKey(Short.valueOf("6752"));
     }
 
 }

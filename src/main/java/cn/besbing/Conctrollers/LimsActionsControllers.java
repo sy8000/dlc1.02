@@ -158,10 +158,12 @@ public class LimsActionsControllers {
         CProjTask cProjTask = null;
         CProjLoginSample cProjLoginSample = null;
         Test test = null;
+        Test cProjTaskTest = null;
         Test testInit = null;
         Test testAfter = null;
         Sample sample = null;
         Result result = null;
+        Result conditionResult = null;
         CProjParaA cProjParaA = null;
         CProjTaskParaB cProjTaskParaB = null;
         //委托单：头、体、修改、试验前;任务单：头、体、试验后、条件
@@ -225,10 +227,12 @@ public class LimsActionsControllers {
             cProjTask = iCprojTaskService.getLimsExampleTask();
             cProjLoginSample = iCprojLoginSampleService.getLimsExampleCProjLoginSample();
             test = iTestService.getLimsExampleTest();
-            testInit = iTestService.getLimsExampleInitTest();
-            testAfter = iTestService.getLimsExampleAfterTest();
+            cProjTaskTest = iTestService.getCProjTaskTest();
+            //testInit = iTestService.getLimsExampleInitTest();
+            //testAfter = iTestService.getLimsExampleAfterTest();
             sample = iSampleService.getLimsExampleSample();
             result = resultService.getLimsExampleResult();
+            conditionResult = resultService.getLimsConditionExampleResult();
             cProjParaA = icProjParaAService.getLimsExampleCProjParaA();
             cProjTaskParaB = icProjTaskParaBService.getLimsExampleCProjTaskParaB();
             listFlag.add("获取lims模板数据完成");

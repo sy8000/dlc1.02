@@ -13,7 +13,11 @@ public class ITestServiceImpl implements ITestService {
     TestMapper testMapper;
 
     public Test getLimsExampleTest(){
-        return testMapper.selectByPrimaryKey(Long.valueOf(178187));
+        return testMapper.selectByPrimaryKey(Long.valueOf(179511));
+    }
+
+    public Test getCProjTaskTest(){
+        return testMapper.selectByPrimaryKey(Long.valueOf(179510));
     }
 
     public Test getLimsExampleInitTest(){

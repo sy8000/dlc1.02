@@ -34,7 +34,13 @@ public class ResultServiceImpl implements IResultService {
     }
 
     public Result getLimsExampleResult(){
-        return resultMapper.selectByPrimaryKey(Long.valueOf(9202009));
+        return resultMapper.selectByPrimaryKey(Long.valueOf(9221886));
+    }
+
+    //9221873
+
+    public Result getLimsConditionExampleResult(){
+        return resultMapper.selectByPrimaryKey(Long.valueOf(9221873));
     }
 
 }

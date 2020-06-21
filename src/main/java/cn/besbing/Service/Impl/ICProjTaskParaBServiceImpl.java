@@ -14,7 +14,7 @@ public class ICProjTaskParaBServiceImpl implements ICProjTaskParaBService {
 
 
     public CProjTaskParaB getLimsExampleCProjTaskParaB(){
-        return cProjTaskParaBMapper.selectByPrimaryKey(Long.valueOf(266552));
+        return cProjTaskParaBMapper.selectByPrimaryKey(Long.valueOf(267340));
     }
 
 }

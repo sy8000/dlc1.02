@@ -14,7 +14,7 @@ public class ISampleServiceImpl implements ISampleService {
 
 
     public Sample getLimsExampleSample(){
-        return sampleMapper.selectByPrimaryKey(Long.valueOf(59152));
+        return sampleMapper.selectByPrimaryKey(Long.valueOf(59574));
     }
 
 

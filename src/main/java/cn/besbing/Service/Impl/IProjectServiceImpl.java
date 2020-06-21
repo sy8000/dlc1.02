@@ -14,7 +14,7 @@ public class IProjectServiceImpl implements IProjectService {
 
 
     public Project getLimsExampleProject(){
-        return projectMapper.selectByPrimaryKey("A-200616-0092");
+        return projectMapper.selectByPrimaryKey("A-200618-0091");
     }
 
 

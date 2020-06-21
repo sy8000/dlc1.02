@@ -13,7 +13,7 @@ public class ICProjParaAServiceImpl implements ICProjParaAService {
     CProjParaAMapper cProjParaAMapper;
 
     public CProjParaA getLimsExampleCProjParaA(){
-        return cProjParaAMapper.selectByPrimaryKey(Long.valueOf(94494));
+        return cProjParaAMapper.selectByPrimaryKey(Long.valueOf(93585));
     }
 
 }
